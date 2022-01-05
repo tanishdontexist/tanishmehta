@@ -1,0 +1,31 @@
+{
+  "metaTitle": "Tanish Mehta",
+  "metaDescription": "A Website Made By Team X",
+  "name": "Tanish Mehta",
+  "theme": "",
+  "img": "https://cdn.glitch.me/729aafee-a3e0-4fbc-afd1-fd0d17d169aa/IMG_20210928_131314.jpg?v=1641204051812",
+  "avatarImage": "https://cdn.glitch.me/729aafee-a3e0-4fbc-afd1-fd0d17d169aa/IMG_20210928_131314.jpg?v=1641204051812",
+  "links": [
+    {
+      "url": "https://www.instagram.com/tanishzzzz/",
+      "text": "Instagram",
+      "img": "https://cdn.glitch.me/729aafee-a3e0-4fbc-afd1-fd0d17d169aa/1641212387809.png?v=1641212423619"
+    },
+    {
+      "url": "https://discord.gg/3EjSrdTSm9",
+      "text": "Discord",
+      "img": "https://cdn.glitch.me/729aafee-a3e0-4fbc-afd1-fd0d17d169aa/1641212388334.png?v=1641212422153"
+    },
+    {
+      "url": "https://tanishmehta.glitch.me",
+      "text": "My Website",
+      "img": "https://cdn.glitch.me/729aafee-a3e0-4fbc-afd1-fd0d17d169aa/1641212386749.png?v=1641212419997"
+    }
+  ],
+  "social": {
+    "twitter": "https://mobile.twitter.com/tanishzzz",
+    "github": "https://github.com/tanishzzz",
+    "youtube": "https://youtube.com/channel/UCdYmTplxdWn2I6vjPSJqp_g",
+    "email": "tanishmehta085@gmail.com"
+  }
+}
