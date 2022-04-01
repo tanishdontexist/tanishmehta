@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tanish Mehta</title>
+    <meta name="description" content="Just A Creature." />
+    <meta property="og:title" content="Tanish Mehta" />
+    <meta property="og:description" content="Just A Creature." />
+    <meta
+      property="og:image"
+      content="https://media.discordapp.net/attachments/890979637428092958/928885200514080809/IMG_20210928_131314.jpg"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <!---  <meta name="viewport" content="width=device-width, initial-scale=1" /> --->
+    <meta name="theme-color" content="#5C5CFF" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Changa:wght@200&family=Josefin+Sans:wght@200&family=Poppins:wght@900&family=Rock+3D&family=Sacramento&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3a6e1a5130.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .navbar-brand {
+        font-size: 30px;
+        color: #ffffff;
+        font-family: "Staatliches", cursive;
+      }
+
+      .navbar-brand:hover {
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+      .navbar-toggler {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        transition: 0.2s;
+      }
+
+      .navbar-toggler,
+      .navbar-toggler:focus,
+      .navbar-toggler:active,
+      .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+        border: 0;
+        position: relative;
+      }
+
+      .navbar-toggler span {
+        margin: 0;
+        padding: 0;
+      }
+
+      .toggler-icon {
+        display: block;
+        position: absolute;
+        height: 2.2px;
+        width: 100%;
+        background: #ffffff;
+        border-radius: 0px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: 0.15s;
+      }
+
+      .middle-bar {
+        margin-top: 0px;
+      }
+
+      /* State when the navbar is collapsed */
+
+      .navbar-toggler.collapsed .top-bar {
+        position: absolute;
+        top: 3px;
+        transform: rotate(0deg);
+      }
+
+      .navbar-toggler.collapsed .bottom-bar {
+        width: 60%;
+        position: absolute;
+        top: 13px;
+        left: 9px;
+        transform: rotate(0deg);
+      }
+
+      /* when navigation is clicked */
+
+      .navbar-toggler .top-bar {
+        top: 7px;
+        transform: rotate(-45deg);
+      }
+
+      .navbar-toggler .bottom-bar {
+        top: 7px;
+        transform: rotate(45deg);
+      }
+
+      /* Color of 3 lines */
+
+      .navbar-toggler.collapsed .toggler-icon {
+        background: white;
+      }
+
+      h1 {
+        text-decoration: underline;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 2px;
+
+        text-align: center;
+        font-family: "Josefin Sans", sans-serif;
+      }
+      h4 {
+        font-family: "Staatliches", cursive;
+      }
+      .paragraph1 {
+        font-family: "Josefin Sans", sans-serif;
+      }
+      .paragraph2 {
+        font-family: "Josefin Sans", sans-serif;
+      }
+      .paragraph3 {
+        font-family: "Josefin Sans", sans-serif;
+      }
+      .paragraph4 {
+        font-family: "Josefin Sans", sans-serif;
+      }
+      .paragraph5 {
+        font-family: "Josefin Sans", sans-serif;
+      }
+      .navbar a:active {
+        text-decoration: line-through;
+        text-decoration-color: #5c5cff;
+      }
+      .heading5 {
+        font-family: "Josefin Sans", sans-serif;
+      }
+      .paragraphnote {
+        font-family: "Josefin Sans", sans-serif;
+      }
+      .fa-brands {
+        font-size: 20px;
+        background: #000000;
+        color: #d2d2d2;
+        text-decoration: none;
+      }
+      .fa-instagram {
+        font-size: 20.5px;
+      }
+      .fa-discord {
+      }
+      .fa-youtube {
+        font-size: 20.5px;
+      }
+      .fa-brands:hover {
+        color: #5c5cff;
+        transition-duration: 0.2s;
+      }
+      .button100 {
+        padding: 15px 25px;
+        display: inline-block;
+        font-size: 16px;
+        font-family: "Josefin Sans", sans-serif;
+        cursor: pointer;
+        margin-left: -40px;
+        border-radius: 0%;
+        background-color: black;
+        color: white;
+        border: 2px solid #ffffff;
+        position: absolute;
+        transition-duration: 0.2s;
+        text-decoration: none;
+      }
+      .button100:hover {
+        background-color: #ffffff;
+        color: #000000;
+      }
+      nav {
+        border-bottom: 1px solid #ffffff;
+      }
+      .image101 {
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        width: 240px;
+        height: 240px;
+        background-image: url("https://media.discordapp.net/attachments/788000425798270977/958238892803371048/1648532317245.jpg");
+        background-size: 100%;
+        transition: 0.5s;
+      }
+      .image101:hover {
+        background-image: url("https://media.discordapp.net/attachments/890979637428092958/928885200514080809/IMG_20210928_131314.jpg");
+        transition: 0.5s;
+      }
+    </style>
+  </head>
+  <body style="background-color: #000000">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-black bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://tanishmehta.xyz">
+          TANISH MEHTA
+        </a>
+        <button
+          class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><span
+                  style="
+                    font-size: 20px;
+                    font-family: 'Changa', sans-serif;
+                    color: #bfbfbf;
+                  "
+                  >Home</span
+                ></a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="skills.html"
+                ><span
+                  style="
+                    font-size: 20px;
+                    font-family: 'Changa', sans-serif;
+                    color: #bfbfbf;
+                  "
+                  >Skills</span
+                ></a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html"
+                ><span
+                  style="
+                    font-size: 20px;
+                    font-family: 'Changa', sans-serif;
+                    color: #bfbfbf;
+                  "
+                  >Projects</span
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br /><br /><br /><br />
+    <div style="text-align: center">
+      <img class="image101" />
+    </div>
+    <!---  <script language="javascript">
+      function changeImage() {
+        if (
+          document.getElementById("mainPhoto100").src ==
+          "https://media.discordapp.net/attachments/788000425798270977/958238892803371048/1648532317245.jpg"
+        ) {
+          document.getElementById("mainPhoto100").src =
+            "https://media.discordapp.net/attachments/890979637428092958/928885200514080809/IMG_20210928_131314.jpg";
+        } else {
+          document.getElementById("mainPhoto100").src =
+            "https://media.discordapp.net/attachments/788000425798270977/958238892803371048/1648532317245.jpg";
+        }
+      }
+    </script> --->
+
+    <h4
+      class="heading4"
+      style="height: 60px; color: #ffffff; text-align: center; font-size: 55px"
+    >
+      TANISH MEHTA
+    </h4>
+
+    <p
+      class="paragraph1"
+      style="height: 10px; text-align: center; color: #ffffff"
+    >
+      Hi. I Am Tanish Mehta
+    </p>
+    <p class="paragraph2" style="text-align: center; color: #ffffff">
+      A Coder, Programmer, Developer And Designer
+    </p>
+    <div style="text-align: center">
+      <a class="button100" href="skills.html" style="">Skills</a>
+    </div>
+    <br /><br /><br />
+
+    <p
+      class="paragraph3"
+      style="height: 8px; text-align: center; color: #ffffff"
+    >
+      <b>Birthday:</b> 19 August, 20XX
+    </p>
+    <p
+      class="paragraph4"
+      style="height: 8px; text-align: center; color: #ffffff"
+    >
+      <b>City:</b> Rajasthan, IN
+    </p>
+    <p
+      class="paragraph5"
+      style="height: 8px; text-align: center; color: #ffffff"
+    >
+      <b>Email:</b>
+      tanishmehta085@gmail.com
+    </p>
+    <div style="text-align: center">
+      <a
+        href="https://www.instagram.com/tanishxmehta/"
+        class="fa-brands fa-instagram"
+      ></a>
+      <a
+        href="https://discord.com/users/626733456264527872"
+        class="fa-brands fa-discord"
+      ></a>
+      <a
+        href="https://youtube.com/channel/UCdYmTplxdWn2I6vjPSJqp_g"
+        class="fa-brands fa-youtube"
+      ></a>
+    </div>
+  </body>
+</html>
