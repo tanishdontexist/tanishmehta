@@ -1,0 +1,44 @@
+body {
+  background-color: #000000;
+}
+
+.home {
+  text-align: left;
+  margin-left: 5%;
+  font-size: 30px;
+  color: rgba(256, 256, 256, 0.4);
+  transition: 0.4s;
+}
+.home:hover {
+  color: #5c5cff;
+}
+
+.errortext {
+  color: #5c5cff;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  cursor: default;
+}
+.trytext {
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 8px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.programtext {
+  color: #ffffff;
+  text-align: center;
+  font-size: 175px;
+  letter-spacing: 20px;
+  font-family: "staatliches", cursive;
+  text-shadow: 1px 2px #5c5cff;
+}
+
+.program-text {
+  color: #5c5cff;
+  text-shadow: 1px 2px #ffffff;
+}
