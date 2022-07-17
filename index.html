@@ -10,47 +10,18 @@
       property="og:image"
       content="https://media.discordapp.net/attachments/890979637428092958/928885200514080809/IMG_20210928_131314.jpg"
     />
-   <link href="https://media.discordapp.net/attachments/890979637428092958/959490646647910450/20220401_220256.png" rel="shortcut icon" type="image/x-icon">
-     <meta
+    <link
+      href="https://media.discordapp.net/attachments/890979637428092958/959490646647910450/20220401_220256.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
     />
-    <!---  <meta name="viewport" content="width=device-width, initial-scale=1" /> --->
+
     <meta name="theme-color" content="#5C5CFF" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alata&family=Changa:wght@200&family=Josefin+Sans:wght@200&family=Poppins:wght@900&family=Rock+3D&family=Sacramento&family=Staatliches&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Spartan:wght@900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap"
-      rel="stylesheet"
-    />
+
     <script
       src="https://kit.fontawesome.com/3a6e1a5130.js"
       crossorigin="anonymous"
@@ -60,181 +31,39 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-      .navbar-brand {
-        font-size: 30px;
-        color: #ffffff;
-        font-family: "staatliches", cursive;
-      }
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-      .navbar-brand:hover {
-        text-decoration: none;
-        color: #ffffff;
-      }
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
 
-      .navbar-toggler {
-        width: 20px;
-        height: 20px;
-        position: relative;
-        transition: 0.2s;
-      }
-      .navbar-toggler,
-      .navbar-toggler:focus,
-      .navbar-toggler:active,
-      .navbar-toggler-icon:focus {
-        outline: none;
-        box-shadow: none;
-        border: 0;
-        position: relative;
-      }
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Josefin+Sans:wght@200&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
 
-      .navbar-toggler span {
-        margin: 0;
-        padding: 0;
-      }
-
-      .toggler-icon {
-        display: block;
-        position: absolute;
-        height: 2.2px;
-        width: 100%;
-        background: #ffffff;
-        border-radius: 0px;
-        opacity: 1;
-        left: 0;
-        transform: rotate(0deg);
-        transition: 0.15s;
-      }
-
-      .middle-bar {
-        margin-top: 0px;
-      }
-
-      /* State when the navbar is collapsed */
-
-      .navbar-toggler.collapsed .top-bar {
-        position: absolute;
-        top: 3px;
-        transform: rotate(0deg);
-      }
-
-      .navbar-toggler.collapsed .bottom-bar {
-        width: 60%;
-        position: absolute;
-        top: 13px;
-        left: 9px;
-        transform: rotate(0deg);
-      }
-
-      /* when navigation is clicked */
-
-      .navbar-toggler .top-bar {
-        top: 7px;
-        transform: rotate(-45deg);
-      }
-
-      .navbar-toggler .bottom-bar {
-        top: 7px;
-        transform: rotate(45deg);
-      }
-
-      /* Color of 3 lines */
-
-      .navbar-toggler.collapsed .toggler-icon {
-        background: white;
-      }
-
-      h1 {
-        font-family: "staatliches", cursive;
-      }
-      h2 {
-        font-family: "staatliches", cursive;
-      }
-      h3 {
-        margin-right: 5.6em;
-        font-family: "Josefin Sans", sans-serif;
-      }
-
-      .button100 {
-        padding: 15px 25px;
-        display: inline-block;
-        font-size: 16px;
-        font-family: "Josefin Sans", sans-serif;
-        cursor: pointer;
-        border-radius: 0%;
-        background-color: black;
-        color: white;
-        border: 2px solid #5c5cff;
-        position: absolute;
-        margin-left: -97px;
-        transition-duration: 0.2s;
-        text-decoration: none;
-      }
-      .button100:hover {
-        background-color: #5c5cff;
-        color: #ffffff;
-      }
-      .button200 {
-        padding: 15px 13px;
-        display: inline-block;
-        font-size: 16px;
-        font-family: "Josefin Sans", sans-serif;
-        cursor: pointer;
-        border-radius: 0%;
-        background-color: black;
-        color: white;
-        border: 2px solid #ffffff;
-        position: absolute;
-        margin-left: 30px;
-        transition-duration: 0.2s;
-        text-decoration: none;
-      }
-      .button200:hover {
-        background-color: #ffffff;
-        color: #000000;
-      }
-      .paragraphend {
-        color: #666666;
-        font-size: 12px;
-        text-decoration: none;
-        font-family: "Josefin Sans", sans-serif;
-        
-        transition: 0.2s;
-        
-      }
-      .paragraphend:hover {
-        color: #ffffff;
-       transition: 0.2s;
-      }
-
-      .hrofh3 {
-        margin-left: 2.1em;
-      }
-      h4 {
-        font-family: "Staatliches", cursive;
-      }
-      .nav-link:hover {
-        text-decoration: line-through;
-        text-decoration-color: #5c5cff;
-      }
-      .nav-link-active {
-        text-decoration: line-through;
-        text-decoration-color: #5c5cff;
-      }
-    </style>
-
-    <!--- font-family: 'Alata', sans-serif;
-font-family: 'Changa', sans-serif;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Rock 3D', cursive;
-font-family: 'Sacramento', cursive;
-font-family: 'Staatliches', cursive;--->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body style="background-color: #000000">
+  <body
+    data-bs-spy="scroll"
+    data-bs-offset="50"
+    data-bs-target="#navbarNav"
+    data-bs-smooth-scroll="true"
+    class="scrollspy-example"
+    tabindex="0"
+    style="background-color: #000000"
+  >
     <nav class="navbar fixed-top navbar-expand-lg navbar-black bg-black">
       <div class="container-fluid">
         <a class="navbar-brand" href="https://tanishmehta.xyz">
@@ -253,96 +82,464 @@ font-family: 'Staatliches', cursive;--->
           <span class="toggler-icon bottom-bar"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-              <a class="nav-link nav-link-active" href="https://tanishmehta.xyz"
-                ><span
-                  style="
-                    font-size: 20px;
-                    font-family: 'Changa', sans-serif;
-                    color: #bfbfbf;
-                  "
-                  >Home</span
-                ></a
-              >
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link tmisthebest" href="#home">#TM</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://tanishmehta.xyz/about"
-                ><span
-                  style="
-                    font-size: 20px;
-                    font-family: 'Changa', sans-serif;
-                    color: #bfbfbf;
-                  "
-                  >About</span
-                ></a
-              >
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://tanishmehta.xyz/skills"
-                ><span
-                  style="
-                    font-size: 20px;
-                    font-family: 'Changa', sans-serif;
-                    color: #bfbfbf;
-                  "
-                  >Skills</span
-                ></a
-              >
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link" href="https://tanishmehta.xyz/projects"
-                ><span
-                  style="
-                    font-size: 20px;
-                    font-family: 'Changa', sans-serif;
-                    color: #bfbfbf;
-                  "
-                  >Projects</span
-                ></a
-              >
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-    ...
-    <div
-      style="
-        background-image: url('');
-        background-size: cover;
-        height: 240px;
-        padding-top: 140px;
-        text-align: center;
-      "
+    <section
+      style="width: 100%; height: 800px; background-color: #000000"
+      id="home"
     >
+      <hr style="height: 75px" />
+      <div
+        style="
+          background-image: url('');
+          background-size: cover;
+          height: 240px;
+          padding-top: 140px;
+          text-align: center;
+        "
+      >
+        <img
+          src="https://media.discordapp.net/attachments/890979637428092958/928885200514080809/IMG_20210928_131314.jpg"
+          style="height: 180px; border-radius: 50%; border: 0px solid #ffffff"
+        />
+      </div>
+
+      <h1
+        href="#"
+        style="
+          height: 50px;
+          font-size: 80px;
+          color: #ffffff;
+          text-align: center;
+        "
+      >
+        Tanish
+      </h1>
+
+      <h2
+        style="
+          height: 80px;
+          font-size: 90px;
+          color: #ffffff;
+          text-align: center;
+        "
+      >
+        Mehta
+      </h2>
+
+      <div style="text-align: center">
+        <a class="button100" href="#about">About Me</a>
+        <a class="button200" href="#skills">Skills</a>
+      </div>
+    </section>
+    <section
+      style="width: 100%; height: 800px; background-color: #000000"
+      id="about"
+    >
+      <hr style="height: 75px" />
+
+      <h3 style="font-size: 45px; color: #5c5cff">About</h3>
+      <div
+        style="height: 40px; color: #ffffff"
+        id="sequence"
+        class="sequence"
+      ></div>
+
       <img
-        src="https://media.discordapp.net/attachments/890979637428092958/928885200514080809/IMG_20210928_131314.jpg"
-        style="height: 180px; border-radius: 50%; border: 0px solid #ffffff"
+        align="left"
+        class="aboutimage"
+        src="https://media.discordapp.net/attachments/890979637428092958/928885200514080809/IMG_20210928_131314.jpg?width=559&height=559"
       />
-    </div>
 
-    <h1
-      href="#"
-      style="height: 50px; font-size: 80px; color: #ffffff; text-align: center"
-    >
-      Tanish
-    </h1>
+      <h4
+        class="heading4"
+        align="middle"
+        style="color: #5c5cff; font-size: 40px"
+      >
+        Information
+      </h4>
+      <div align="middle">
+        <p class="paragraphabout" style="color: #ffffff">
+          Hi, I Am Tanish Mehta, A Coder/Programmer/Developer,<br />I Am Also
+          Interested In Designing,<br />You Can See Some Of My Designs
+          <a class="nourl" href="https://bit.ly/tanisheditz">Here</a
+          >,<br />I Am A Student And I’m Eager To Learn Brand New Skills.
+        </p>
 
-    <h2
-      style="height: 80px; font-size: 90px; color: #ffffff; text-align: center"
-    >
-      Mehta
-    </h2>
-    <div style="text-align: center">
-      <a class="button100" href="https://tanishmehta.xyz/about" style="">About Me</a>
-      <a class="button200" href="mailto:tanishmehta085@gmail.com">Email</a>
-    </div>
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <div style="text-align: center">
-      <a href="https://tanishmehta.xyz" class="paragraphend">© Tanish Mehta, All Right Reserved</a>
-    </div>
+        <p class="paragraphabout" style="height: 8px; color: #ffffff">
+          <b>Address:</b> Sri Ganganagar, Rajasthan
+        </p>
+        <p class="paragraphabout" style="height: 8px; color: #ffffff">
+          <b>Website:</b>
+          <a class="nodecoration" href="https://tanishmehta.xyz/"
+            >www.tanishmehta.xyz</a
+          >
+        </p>
+        <p class="paragraphabout" style="height: 8px; color: #ffffff">
+          <b>Email:</b>
+          tanishmehta085@gmail.com
+        </p>
+
+        <a
+          href="https://www.instagram.com/tanishxmehta/"
+          class="fa-brands fa-instagram fa-brands1"
+        ></a>
+        <a
+          href="https://discord.com/users/626733456264527872"
+          class="fa-brands fa-discord fa-brands1"
+        ></a>
+        <a
+          href="https://youtube.com/channel/UCdYmTplxdWn2I6vjPSJqp_g"
+          class="fa-brands fa-youtube fa-brands1"
+        ></a>
+      </div>
+    </section>
+    <section style="width: 100%; background-color: #000000" id="skills">
+      <hr style="height: 75px" />
+
+      <div class="mrright" style="text-align: left">
+        <h5 style="font-size: 45px; color: #5c5cff">Skills</h5>
+
+        <p class="paragraph" style="height: 10px; color: #ffffff">
+          Languages I Know,
+        </p>
+
+        <p class="paragraph" style="color: #ffffff">
+          Technologies I've Worked With Recently.
+        </p>
+        <br />
+        <h6 class="heading" style="color: #5c5cff">Programming Languages</h6>
+
+        <p class="paragraph" style="color: #ffffff">
+          <a href="https://www.python.org/" class="nodecoration">Python</a>,
+          <a href="https://www.java.com/en/" class="nodecoration">Java</a> And
+          <a href="https://www.javascript.com/" class="nodecoration"
+            >Javascript</a
+          >
+        </p>
+        <br />
+        <h7 class="heading" style="color: #5c5cff">Libraries And Frameworks</h7>
+        <p class="paragraph" style="color: #ffffff">
+          <a href="https://www.w3schools.com/html/" class="nodecoration">Html</a
+          >,
+          <a href="https://www.w3schools.com/Css/" class="nodecoration">Css</a>,
+          <a href="https://getbootstrap.com/" class="nodecoration">Bootstrap</a
+          >,
+          <a href="https://nodejs.org/en/" class="nodecoration">Node.js</a> And
+          <a href="https://discord.js.org/#/" class="nodecoration"
+            >Discord.js</a
+          >
+        </p>
+        <br />
+        <h8 class="heading" style="color: #5c5cff"> Tools And Platforms </h8>
+        <p class="paragraph" style="color: #ffffff">
+          <a href="https://git-scm.com/" class="nodecoration">Git</a>,
+          <a href="https://github.com/" class="nodecoration">Github</a>,
+          <a href="https://glitch.com" class="nodecoration">Glitch</a>,
+          <a href="https://www.heroku.com/" class="nodecoration">Heroku</a>,
+          <a href="https://code.visualstudio.com/" class="nodecoration"
+            >Visual Studio Code</a
+          >,
+          <a href="https://developer.android.com/studio/" class="nodecoration"
+            >Android Studio</a
+          >,
+          <a href="https://www.w3schools.com/sql/" class="nodecoration">SQL</a>
+          And
+          <a href="https://www.netlify.com/" class="nodecoration">Netifly</a>
+        </p>
+        <br />
+
+        <h9 class="heading" style="color: #5c5cff"> Designing Platforms </h9>
+
+        <p class="paragraph" style="color: #ffffff">
+          <a
+            href="https://www.adobe.com/in/products/photoshop.html?sdid=SGDJMMG3&mv=search&ef_id=f90d0b6d3a861f62791c69bea3bf2eea:G:s&s_kwcid=AL!3085!10!78752664964288!78752708799445&msclkid=f90d0b6d3a861f62791c69bea3bf2eea&utm_source=bing&utm_medium=cpc&utm_campaign=IN%7CCPRO%7CDI%7CCORE%7CPS_hv_Exact%7CBNG%7C%7C&utm_term=adobe%20photoshop&utm_content=in%3Cps%3Cpurch%3Cbr%3C%3C%3C_hv%3Cexact"
+            class="nodecoration"
+            >Adobe Photoshop</a
+          >,
+          <a
+            href="https://www.adobe.com/in/products/premiere.html?sdid=STLMM87Z&mv=search&ef_id=b3e9ea00afec1b5f294888d3365df71e:G:s&s_kwcid=AL!3085!10!79027536543909!79027756767059&msclkid=b3e9ea00afec1b5f294888d3365df71e&utm_source=bing&utm_medium=cpc&utm_campaign=IN%7CCPRO%7CVideo%7CCORE%7CPR_hv_Exact%7CBNG%7C%7C&utm_term=Adobe%20Premiere%20Pro&utm_content=in%3Cpr%3Cpurch%3Cbr%3C_pro_hv%3C%3C%3Cexact"
+            class="nodecoration"
+            >Adobe Premiere Pro</a
+          >, <a href="error.html" class="nodecoration">PS CC</a>,
+          <a
+            href="https://play.google.com/store/apps/details?id=com.imaginstudio.imagetools.pixellab&gl=US"
+            class="nodecoration"
+            >PixelLab</a
+          >,
+          <a href="https://kinemaster.com/" class="nodecoration">Kinemaster</a>
+          And
+          <a
+            href="https://play.google.com/store/apps/details?id=com.alightcreative.motion&gl=US"
+            class="nodecoration"
+            >Alight Motion</a
+          >
+        </p>
+      </div>
+    </section>
+    <section style="width: 100%; background-color: #000000" id="projects">
+      <hr style="height: 75px" />
+      <h10 style="font-size: 45px; color: #5c5cff">Projects</h10>
+      <br /><br />
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="https://bit.ly/discordmystery">
+              <img
+                src="https://media.discordapp.net/attachments/890979637428092958/958794079632769094/1635588828202_20211030_150425_814.jpg?width=559&height=559"
+              />
+            </a>
+            <div class="swiper-text">
+              <h11>Mystery</h11>
+
+              <p>
+                MysTeRy Is A Discord Bot Aim For Making Server<br />Moderation
+                Easy And Without Any Obstacles.
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://discord.com/oauth2/authorize?client_id=767223932884353044&permissions=8&scope=bot%20applications.commands"
+            >
+              <img
+                src="https://media.discordapp.net/attachments/978244900103528498/997355111451983962/1656907688217.jpg"
+              />
+            </a>
+            <div class="swiper-text">
+              <h12>Acronoid</h12>
+              <p>
+                Acronoid Is A Multipropose Discord Bot<br />
+                And Received A Huge Update, Check Them Out.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <a
+              href="https://discord.com/oauth2/authorize?client_id=853274561072201746&permissions=8&scope=bot%20applications.commands"
+            >
+              <img
+                src="https://media.discordapp.net/attachments/978244900103528498/997500873859137596/1656857870222.jpg"
+              />
+            </a>
+            <div class="swiper-text">
+              <h13>Velocity</h13>
+              <p>
+                Velocity Is A Music Discord Bot<br />With Premium Features In
+                Free.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <a
+              href="https://discord.com/api/oauth2/authorize?client_id=755468378549911663&permissions=8&scope=bot%20applications.commands"
+            >
+              <img
+                src="https://media.discordapp.net/attachments/978244900103528498/997195963640856576/1657820428759.jpg?width=419&height=559"
+              />
+            </a>
+            <div class="swiper-text">
+              <h12>GiveAway</h12>
+              <p>
+                Giveaway Is A Giveaway Hosting Discord Bot<br />
+                Can Host Multi Functional Giveaways In Servers.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <a
+              href="https://discord.com/api/oauth2/authorize?client_id=739879279881617499&permissions=2453007424&scope=bot%20applications.commands"
+            >
+              <img
+                src="https://media.discordapp.net/attachments/978244900103528498/997195029678395452/1657820204778.jpg?width=419&height=559"
+              />
+            </a>
+            <div class="swiper-text">
+              <h12>Cupcake</h12>
+              <p>
+                Cupcake Is A Music Discord Bot<br />
+                Aim To Provide High Quality Music.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <br /><br />
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section style="width: 100%; background-color: #000000" id="contact">
+      <hr style="height: 75px" />
+      <h14 style="font-size: 50px; color: #5c5cff">Contact</h14>
+      <hr />
+      <div class="container wrapper">
+        <div class="left row">
+          <a
+            class="getintouch"
+            href="https://goo.gl/maps/7PxBdwbUooE44f1k9"
+            style="font-size: 40px; color: #5c5cff"
+          >
+            Location:
+            <p class="getintouchminor" style="font-size: 25px; color: #ffffff">
+              Sri Ganganagar, Rajasthan
+            </p>
+          </a>
+          <hr />
+          <hr />
+          <a class="getintouch" style="font-size: 40px; color: #5c5cff">
+            Call:
+            <p class="getintouchminor" style="font-size: 25px; color: #ffffff">
+              Not Available
+            </p>
+          </a>
+          <hr />
+          <hr />
+          <a
+            class="getintouch"
+            href="mailto:tanishmehta085@gmail.com"
+            style="font-size: 40px; color: #5c5cff"
+          >
+            Email:
+            <p class="getintouchminor" style="font-size: 25px; color: #ffffff">
+              tanishmehta085@gmail.com
+            </p>
+          </a>
+          <hr />
+          <hr />
+          <a
+            class="getintouch"
+            href="https://www.discord.com/users/626733456264527872"
+            style="font-size: 35px; color: #5c5cff"
+          >
+            Discord:
+            <p class="getintouchminor" style="font-size: 25px; color: #ffffff">
+              Tanish#5750
+            </p>
+          </a>
+        </div>
+
+        <div class="col-md-0 mb-md-0 mb-0">
+          <form
+            id="contact-form"
+            name="contact-form"
+            action="https://formspree.io/f/xpzbvzjl"
+            method="POST"
+          >
+            <div class="row">
+              <div class="col-md-6">
+                <label style="color: #ffffff" for="name">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-control"
+                  data-rule="minlen:4"
+                  data-msg="Please Enter Your Full Name"
+                  placeholder="Enter Your Full Name"
+                  required="true"
+                />
+                <div class="validate"></div>
+              </div>
+
+              <div class="col-md-6">
+                <label style="color: #ffffff" for="email">Your Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  data-rule="email"
+                  data-msg="Please Enter A Valid Email"
+                  placeholder="Enter Your Email"
+                  required="true"
+                />
+                <div class="validate"></div>
+              </div>
+
+              <div class="col-md-12">
+                <label style="color: #ffffff" for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  class="form-control"
+                  data-rule="minlen:4"
+                  data-msg="Please Enter Atleast 4 Characters"
+                  placeholder="Subject"
+                  required="true"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-12">
+                <label style="color: #ffffff" for="message">Message</label>
+                <textarea
+                  type="text"
+                  id="message"
+                  name="message"
+                  rows="10"
+                  class="form-control"
+                  data-rule="required"
+                  data-msg="Please Write Something"
+                  placeholder="Write Your Message Here"
+                  required="true"
+                ></textarea>
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div align="middle">
+        <hr class="footerhr" />
+      </div>
+      <div class="container d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">© Tanish Mehta, All Right Reserved</div>
+        </div>
+        <div class="social-links text-center text-md-end pt-3 pt-md-0">
+          <a
+            href="https://www.instagram.com/tanishxmehta/"
+            class="instagramfooter"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://discord.com/users/626733456264527872"
+            class="discordfooter"
+            ><i class="fa-brands fa-discord"></i
+          ></a>
+          <a
+            href="https://youtube.com/channel/UCdYmTplxdWn2I6vjPSJqp_g"
+            class="youtubefooter"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
   </body>
+  <script src="js/script.js"></script>
 </html>
